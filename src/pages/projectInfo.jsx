@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { motion } from "framer-motion";
+import "../App.css";
 
 const projectData = {
   project1: {
@@ -115,27 +116,16 @@ function ProjectDetail() {
 
   return (
     <>
-      <Navbar title={data.name} onBack={handleBack} darkMode={darkMode} toggleTheme={toggleTheme} />
+      <Navbar onBack={handleBack} darkMode={darkMode} toggleTheme={toggleTheme} />
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -30 }}
         transition={{ duration: 0.6 }}
       >
-        <div style={{ padding: "40px", display: "flex", justifyContent: "center" ,alignItems: "center", minHeight: "75vh"}}>
-        <div style={{
-            backgroundColor: "#2a2a2a",
-            padding: "32px",
-            borderRadius: "16px",
-            display: "flex",
-            flexDirection: "row",
-            gap: "32px",
-            maxWidth: "900px",
-            width: "100%",
-            boxShadow: "0 4px 12px rgba(0,0,0,0.4)",
-            alignItems: "flex-start"
-        }}>
-            <div style={{ width: "500px", height: "300px" }}>
+        <div className="project-detail-container">
+          <div className="project-detail-content">
+            <div className="project-detail-image">
             {Array.isArray(data.img) ? (
                 <Carousel
                 showThumbs={false}
@@ -149,7 +139,7 @@ function ProjectDetail() {
                     key={i}
                     style={{
                         width: "100%",
-                        height: "300px",
+                        height: "auto",
                         overflow: "hidden",
                         borderRadius: "12px",
                         position: "relative"
@@ -190,7 +180,7 @@ function ProjectDetail() {
                 alt={data.name}
                 style={{
                     width: "100%",
-                    height: "300px",
+                    height: "auto",
                     objectFit: "contain",
                     borderRadius: "12px"
                 }}
@@ -198,7 +188,7 @@ function ProjectDetail() {
             )}
             </div>
 
-          <div style={{ flex: 1 }}>
+          <div className="project-detail-text">
             <h2 style={{ margin: -5, color: "#00bcd4" }}>{data.name}</h2>
             <p style={{ marginTop: "15px", marginBottom: "16px", color: "#fff",}}>{data.desc}</p>
             <div style={{ marginBottom: "8px", color: "#fff", }}><strong>Build with :</strong> {data.tech}</div>

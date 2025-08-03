@@ -37,13 +37,8 @@ function Menu() {
                 exit={{ opacity: 0, y: -30 }}
                 transition={{ duration: 0.6 }}
             >
-                <div style={{ textAlign: "center" }}>
-                <p style={{
-                    fontFamily: 'Comfortaa, cursive',
-                    fontSize: '12px',
-                    marginTop: '20px',
-                    color: darkMode ? 'white' : 'black',
-                }}>
+                <div style={{ textAlign: "center", marginTop: "20px" }}>
+                <p className={`responsive-text ${darkMode ? "dark-text" : "light-text"}`}>
                     Hello <strong>{username}</strong>, thank you for visiting my portfolio! What would you like to know about me? Click on the menus down below.
                 </p>
             </div>
@@ -52,6 +47,7 @@ function Menu() {
                 {menuItems.map((item, index) => (
                     <div
                         key={index}
+                        className="menu-item"
                         onClick={() => navigate(item.path)}
                         onMouseEnter={() => setHoveredIndex(index)}
                         onMouseLeave={() => setHoveredIndex(null)}

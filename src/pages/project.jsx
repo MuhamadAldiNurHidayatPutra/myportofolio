@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
+import "../App.css";
 
 const project = [
   {
@@ -66,7 +67,7 @@ function Project() {
         exit={{ opacity: 0, y: -30 }}
         transition={{ duration: 0.6 }}
         >
-          <div style={{display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "20px",padding: "24px",}}>
+        <div className="project-grid">
         {project.map((p, i) => (
             <div key={i} onClick={() => navigate(`/project/${p.path}`)} style={{
                 backgroundImage: `url(${p.img})`,
