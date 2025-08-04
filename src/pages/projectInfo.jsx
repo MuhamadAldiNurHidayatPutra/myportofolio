@@ -12,8 +12,8 @@ const projectData = {
     desc: "Racing Ciawitali Banget is a static product catalog website for RCB motorcycle parts, built using HTML and CSS. It features a homepage slideshow, detailed product table, company profile, contact form, and social media icons",
     tech: "HTML, CSS",
     year: "2023",
-    github: "#",
-    demo: "#",
+    github: "https://github.com/MuhamadAldiNurHidayatPutra/website-sederhana.git",
+    demo: "https://muhamadaldinurhidayatputra.github.io/website-sederhana/",
     img: [
         "/images/project1/1.PNG",
         "/images/project1/2.PNG",
@@ -22,23 +22,33 @@ const projectData = {
     ]
   },
   project2: {
-    name: "Simulasi Penjualan Motor & Pembayaran Listrik",
-    desc: "This project includes two web-based simulations: motorcycle sales and electricity billing. It features interactive forms, automatic calculations (including discounts, interest, or electricity charges by kWh), and user-selectable options like accessories and payment methods.",
+    name: "Simulasi Penjualan Motor",
+    desc: "This application is a web-based motorcycle sales simulation. Users can select the motorcycle type, add additional accessories, and choose between cash or credit payment. The system will automatically calculate the total price, including discounts and interest on installments, if applicable.",
     tech: "HTML, CSS & JavaScript",
     year: "2023",
-    github: "#",
-    demo: "#",
+    github: "https://github.com/MuhamadAldiNurHidayatPutra/form-pembayaran-sepeda-motor.git",
+    demo: "https://muhamadaldinurhidayatputra.github.io/form-pembayaran-sepeda-motor/",
     img: [
         "/images/project2/1.PNG",
-        "/images/project2/2.PNG",
     ]
   },
   project3: {
+    name: "Simulasi Pembayaran Listrik",
+    desc: "This is a simple web-based simulation for calculating electricity bills using JavaScript. Enter your electricity usage (in kWh), and the system will automatically calculate the total bill. It features an interactive display and real-time calculations.",
+    tech: "HTML, CSS & JavaScript",
+    year: "2023",
+    github: "https://github.com/MuhamadAldiNurHidayatPutra/form-pembayaran-listrik.git",
+    demo: "https://muhamadaldinurhidayatputra.github.io/form-pembayaran-listrik/",
+    img: [
+        "/images/project2/2.PNG",
+    ]
+  },
+  project4: {
     name: "Showroom Sepeda Motor Berbasis Web",
     desc: "A dynamic motorcycle showroom website developed using PHP and MySQL, with JavaScript for interactive features. Core functionalities include navigation (Home, About, Contact Us), a motorbike data input form, and an admin-only login system for data management.",
     tech: "HTML, PHP, CSS & JavaScript",
     year: "2024",
-    github: "#",
+    github: "https://github.com/MuhamadAldiNurHidayatPutra/website-showroom-sepeda-motor-sederhana.git",
     demo: "#",
     img: [
         "/images/project3/1.PNG",
@@ -48,12 +58,12 @@ const projectData = {
         "/images/project3/5.PNG",
     ]
   },
-  project4: {
+  project5: {
     name: "Sistem Posyandu Berbasis Web",
     desc: "A web application for managing Posyandu (community health post) data, built with PHP, CSS, and JavaScript. Key features include user login and full CRUD functionality for managing records such as children, mothers, and activity schedules.",
     tech: "PHP, CSS & JavaScript",
     year: "2025",
-    github: "#",
+    github: "https://github.com/MuhamadAldiNurHidayatPutra/sistem-posyandu.git",
     demo: "#",
     img: [
         "/images/project4/1.PNG",
@@ -63,12 +73,12 @@ const projectData = {
         "/images/project4/5.PNG",
     ]
   },
-  project5: {
+  project6: {
     name: "Sistem Informasi Manajemen Restoran",
     desc: "A desktop-based restaurant application developed using Java with NetBeans IDE 20, JDK 1.8, and MySQL as the database. The system is designed to support efficient restaurant operations through CRUD features for managing menu items, orders, customers, users, and transactions. It also includes an automated receipt printing feature using JasperReports to streamline customer service and reporting.",
     tech: "Java, MySQL, JasperReports",
     year: "2025",
-    github: "#",
+    github: "https://github.com/MuhamadAldiNurHidayatPutra/aplikasi-sistem-restoran.git",
     demo: "#",
     img: [
         "/images/project5/1.PNG",
@@ -78,12 +88,12 @@ const projectData = {
         "/images/project5/5.PNG",
     ]
   },
-  project6: {
+  project7: {
     name: "Sistem Informasi Manajemen Toko Baju",
     desc: "A desktop-based clothing store management system developed using Java with NetBeans IDE 20 and JDK 21. It utilizes MySQL for database management and integrates with Jaspersoft Studio for generating automated receipts and reports. Key features include CRUD operations, automatic receipt printing, and the ability to generate daily, monthly, and yearly sales reports.",
     tech: "Java, MySQL, Jaspersoft Studio",
     year: "2025",
-    github: "#",
+    github: "https://github.com/MuhamadAldiNurHidayatPutra/aplikasi-sistem-distro.git",
     demo: "#",
     img: [
         "/images/project6/1.PNG",

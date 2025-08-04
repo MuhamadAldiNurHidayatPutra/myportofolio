@@ -19,28 +19,34 @@ const project = [
     path: "project2",
   },
   {
+    title: "Perhitungan sederhana 2",
+    desc: "Aplikasi pehitungan web sederhana.",
+    img: "https://plus.unsplash.com/premium_photo-1724800663740-33d7cad1e8b0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    path: "project3",
+  },
+  {
     title: "Showroom Sepeda Motor",
     desc: "Website Katalog sepeda motor",
     img: "https://images.unsplash.com/photo-1590506093461-7b26beddcb39?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHNob3dyb29tJTIwc2VwZWRhJTIwbW90b3J8ZW58MHx8MHx8fDA%3D",
-    path: "project3",
+    path: "project4",
   },
   {
     title: "Posyandu",
     desc: "Website pencatatan data balita & ibu.",
     img: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhlYWx0aCUyMGNhcmV8ZW58MHx8MHx8fDA%3D",
-    path: "project4",
+    path: "project5",
   },
   {
     title: "Restoran",
     desc: "Aplikasi pemesanan makanan.",
     img: "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=600&q=80",
-    path: "project5",
+    path: "project6",
   },
   {
     title: "Toko Baju",
     desc: "Aplikasi penjualan baju.",
     img: "https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=600&q=80",
-    path: "project6",
+    path: "project7",
   },
 ];
 
